@@ -64,6 +64,8 @@ public class Main {
 
 ```
 
+Running above code results in the following output.
+
 ```java
 In the method, a = 5, b = 10
 After operation, x = 6, y = 11
