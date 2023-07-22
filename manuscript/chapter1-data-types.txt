@@ -12,20 +12,20 @@
 
 | Operator Type       | Syntax                                             |
 |---------------------|----------------------------------------------------|
-| Postfix             | `++`, `--`                                         |
-| Prefix / Unary      | `++`, `--` , `+`, `-`, `!`, `~`                    |
-| Multiplicative      | `*`, `/`, `%`                                      |
-| Additive            | `+`, `-`                                           |
-| Shift               | `<<`, `>>`, `>>>`                                  |
-| Relational          | `<`, `>`, `<=`, `>=`, `instanceof`                 |
-| Equality            | `==`, `!=`                                         |
+| Postfix             | `++` `--`                                          |
+| Prefix / Unary      | `++` `--`  `+` `-` `!` `~`                         |
+| Multiplicative      | `*` `/` `%`                                        |
+| Additive            | `+` `-`                                            |
+| Shift               | `<<` `>>` `>>>`                                    |
+| Relational          | `<` `>` `<=` `>=` `instanceof`                     |
+| Equality            | `==` `!=`                                          |
 | Bitwise AND         | `&`                                                |
 | Bitwise exclusive OR| `^`                                                |
 | Bitwise inclusive OR| `\|`                                               |
 | Logical AND         | `&&`                                               |
 | Logical OR          | `\|\|`                                             |
 | Conditional         | `? :`                                              |
-| Assignment          | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`,`\` `^=`, `\|=`, `<<=`, `>>=`, `>>>=`|
+| Assignment          | `=` `+=` `-=` `*=` `/=` `%=` `&=``\` `^=` `\|=` `<<=` `>>=` `>>>=`|
 
 The precedence of the bitwise and logical operators are from top of the table & (AND) to bottom || (Logical OR).
 
