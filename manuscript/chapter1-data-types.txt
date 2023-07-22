@@ -1,0 +1,66 @@
+# Operations and Core Data Types
+
+## Exam objectives covered
+
+**Handling date, time, text, numeric and boolean values**
+
+* Use primitives and wrapper classes including Math API, parentheses, type promotion, and casting to evaluate arithmetic and boolean expressions
+* Manipulate text, including text blocks, using String and StringBuilder classes
+* Manipulate date, time, duration, period, instant and time-zone objects using Date-Time API
+
+## Java Operators
+
+| Operator Type       | Syntax                                             |
+|---------------------|----------------------------------------------------|
+| Postfix             | ++, --                                             |
+| Prefix / Unary      | ++, -- , +, -, !, ~                               |
+| Multiplicative      | *, /, %                                            |
+| Additive            | +, -                                               |
+| Shift               | <<, >>, >>>                                        |
+| Relational          | <, >, <=, >=, instanceof                           |
+| Equality            | ==, !=                                             |
+| Bitwise AND         | &                                                  |
+| Bitwise exclusive OR| ^                                                  |
+| Bitwise inclusive OR| \|                                                 |
+| Logical AND         | &&                                                 |
+| Logical OR          | \|\|                                               |
+| Conditional         | ? :                                                |
+| Assignment          | =, +=, -=, *=, /=, %=, &=,\ ^=, |=, <<=, >>=, >>>= |
+
+The precedence of the bitwise and logical operators are from top of the table & (AND) to bottom || (Logical OR).
+
+
+* Expressions (2 + 3)
+* L-values (left side of an assignment)
+    * Assignable
+    * `array[3]`
+    * Variables
+* Side effects
+    * `++i`
+    * Alter L-values
+
+### Operand evaluation
+* Left to right
+* Before performing operation
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+        int result = multiplyAndPrint(x++, y++);
+        System.out.println("After operation, x = " + x + ", y = " + y);
+    }
+
+    private static int multiplyAndPrint(int a, int b) {
+        System.out.println("In the method, a = " + a + ", b = " + b);
+        return a * b;
+    }
+}
+
+```
+
+```java
+In the method, a = 5, b = 10
+After operation, x = 6, y = 11
+```
