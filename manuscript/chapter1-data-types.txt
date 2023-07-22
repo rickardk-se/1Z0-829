@@ -13,7 +13,7 @@
 | Operator Type       | Syntax                                             |
 |---------------------|----------------------------------------------------|
 | Postfix             | ++, --                                             |
-| Prefix / Unary      | ++, -- , +, -, !, ~                               |
+| Prefix / Unary      | ++, -- , +, -, !, ~                                |
 | Multiplicative      | *, /, %                                            |
 | Additive            | +, -                                               |
 | Shift               | <<, >>, >>>                                        |
@@ -25,7 +25,7 @@
 | Logical AND         | &&                                                 |
 | Logical OR          | \|\|                                               |
 | Conditional         | ? :                                                |
-| Assignment          | =, +=, -=, *=, /=, %=, &=,\ ^=, |=, <<=, >>=, >>>= |
+| Assignment          | =, +=, -=, *=, /=, %=, &=,\ ^=, \|=, <<=, >>=, >>>=|
 
 The precedence of the bitwise and logical operators are from top of the table & (AND) to bottom || (Logical OR).
 
