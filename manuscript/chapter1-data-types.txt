@@ -25,7 +25,7 @@
 | Logical AND         | `&&`                                               |
 | Logical OR          | `\|\|`                                             |
 | Conditional         | `? :`                                              |
-| Assignment          | `=` `+=` `-=` `*=` `/=` `%=` `&=``\` `^=` `\|=` `<<=` `>>=` `>>>=`|
+| Assignment          | `=` `+=` `-=` `*=` `/=` `%=` `&=` `^=` `\|=` `<<=` `>>=` `>>>=`|
 
 The precedence of the bitwise and logical operators are from top of the table & (AND) to bottom || (Logical OR).
 
@@ -39,9 +39,13 @@ The precedence of the bitwise and logical operators are from top of the table & 
     * `++i`
     * Alter L-values
 
+In Java, an L-value (short for "left value") is an expression that refers to a memory location and can appear either on the left side or the right side of an assignment operator. The name "L-value" comes from its ability to appear on the left side of an assignment, but this does not restrict it from appearing on the right side as well.
+
 ### Operand evaluation
 * Left to right
 * Before performing operation
+
+In an expression, operands are the data items that an operator acts upon. For instance, in the arithmetic expression 5 * 7, 5 and 7 are the operands, and * is the operator.
 
 ```java
 public class Main {
