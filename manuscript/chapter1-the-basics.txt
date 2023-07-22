@@ -1,4 +1,4 @@
-# The Basics
+# The Basics are here
 
 Welcome to the Leanpub Browser book writing editor! This page is where you will be writing your book. This file is a working, real example of how to write a book chapter in plain text with Markdown formatting (which we'll explain briefly below).
 
